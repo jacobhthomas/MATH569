@@ -42,10 +42,7 @@ Related to the Weather:
 6. **Analysis**
 
 ### Project Outcomes
-*add some cool graphics*
-
 1. Results of our models
-
 
 | Method    | MSE | R^2|
 | -------- | ------- |-------|
@@ -66,8 +63,11 @@ Related to the Weather:
    - Implement machine learning or deep learning approach to this data set
    - Use collinearity reduction methods on the data set
    - Use time series analysis to better utilize temporal features 
-4. what the literature says and what we think could work better on a dataset like this --> future work
-
+4. Modern Methods for Forecasting Traffic Flow:
+	- Statistical & Parametric Methods: Classical approaches often limited by inadequate function fitting.
+	- Machine Learning Methods: Techniques like Support Vector Regression (SVR) and Support Vector Machines (SVM) along with time series analysis enhance model capability by addressing issues of low dimensionality and linear inseparability.
+	- Deep Learning Methods: Advanced methods such as ARIMA-ANN combinations and Deep Belief Networks (DBN) excel in detecting complex patterns in extensive datasets. DBNs, for instance, are highlighted by researchers like Bao, Xuexin, et al., for their robust pattern recognition capabilities.
+	- Hybrid Multimodal Deep Learning Method: A combination of Convolutional Neural Networks (CNN) and Gated Recurrent Unit (GRU) networks, as explored by Du, Shengdong, et al., optimizes both spatial and temporal data analysis, proving effective for intricate traffic flow forecasting.
 ### How to Navigate the Project
  - All code is located in Jupyter notebooks in the `Code` folder
  - The data (found in `Code/csvs`) is cleaned and exported as `train.csv` and `test.csv` (for test/train data)
