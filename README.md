@@ -23,6 +23,7 @@ Related to the Weather:
 - **Wind Gust (`windgust`)**: The highest speed of the wind gusts at the time of data collection.
 - **Humidity (`humidity`)**: The amount of water vapor present in the air, expressed as a percentage.
 - **UV Index (`uvindex`)**: An indicator of the strength of sunburn-producing ultraviolet radiation at a particular place and time.
+- **Conditions (`conditions`)**: A categorical variable denoting the weather conditions, taking on one of six values: clear, overvast, partly cloudy, rain-overcast, snow-overcast, and rain-snow-overcast. The categorical variable is encoded numerically using one-hot encoding. 
 
 ### Methodology
 1. **Literature Review**
@@ -67,4 +68,7 @@ Related to the Weather:
 4. what the literature says and what we think could work better on a dataset like this --> future work
 
 ### How to Navigate the Project
-*write something about the organization of the repo and where to find stuff*
+ - All code is located in Jupyter notebooks in the `Code` folder
+ - The data (found in `Code/csvs`) is cleaned and exported as `train.csv` and `test.csv` (for test/train data)
+ - 	Note: make sure your `.gitignore` file ignores these 2 csv's, as they are both larger than the github file size limit
+ - Each model used is implemented on a seperate jupyter notebook 
