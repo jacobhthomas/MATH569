@@ -43,7 +43,7 @@ Related to the Weather:
 *add some cool graphics*
 
 1. Results of our models
-   | Method    | MSE | R^2|
+| Method    | MSE | R^2|
 | -------- | ------- |---|
 | MLR  | 0.9713    | 0.0290 |
 | Forward Selection | 0.9710     |0.0290|
