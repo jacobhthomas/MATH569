@@ -37,15 +37,31 @@ Related to the Weather:
 	- Multiple Linear Regression (MLR) with Subset Selection
 	- MLR with LASSO/Ridge
 	- MLR with PCA
-	- Linear Discriminant Analysis (LDA) ?
 6. **Analysis**
 
 ### Project Outcomes
 *add some cool graphics*
-draft outline
-1. results of our models
-2. why we think they failed 
-3. what the literature says and what we think could work better on a dataset like this --> future work
+
+1. Results of our models
+   | Method    | MSE | R^2|
+| -------- | ------- |---|
+| MLR  | 0.9713    | 0.0290 |
+| Forward Selection | 0.9710     |0.0290|
+| Backward Selection    | 0.9735    |0.0265|
+| Stepwise Selection | 0.9710    |0.0290|
+| PCA    | 0.9713    |0.0287|
+| Ridge Regression | 0.9710  |0.0290|
+| LASSO    | 0.9896    |0.0105|
+2. Possible Issues
+   - High correlation between features
+   - 	Intrinsic dimensionality potentially results in low feature space
+   - Geographic and temporal data not easy to perform regression on
+   - Traffic more dependent on proximity to specific points in space and time than a function of these values
+3. Future Work
+   - Implement machine learning or deep learning approach to this data set
+   - Use collinearity reduction methods on the data set
+   - Use time series analysis to better utilize temporal features 
+4. what the literature says and what we think could work better on a dataset like this --> future work
 
 ### How to Navigate the Project
 *write something about the organization of the repo and where to find stuff*
