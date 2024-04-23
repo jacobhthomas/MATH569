@@ -43,8 +43,10 @@ Related to the Weather:
 *add some cool graphics*
 
 1. Results of our models
+
+
 | Method    | MSE | R^2|
-| -------- | ------- |---|
+| -------- | ------- |-------|
 | MLR  | 0.9713    | 0.0290 |
 | Forward Selection | 0.9710     |0.0290|
 | Backward Selection    | 0.9735    |0.0265|
@@ -52,6 +54,7 @@ Related to the Weather:
 | PCA    | 0.9713    |0.0287|
 | Ridge Regression | 0.9710  |0.0290|
 | LASSO    | 0.9896    |0.0105|
+
 2. Possible Issues
    - High correlation between features
    - 	Intrinsic dimensionality potentially results in low feature space
