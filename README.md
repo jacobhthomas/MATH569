@@ -31,6 +31,7 @@ Related to the Weather:
 3. **Data Preprocessing**:
    - Cleaning: Handling missing values, removing outliers, and correcting errors.
    - Feature Engineering: Deriving new features like the day of the week, hour of the day, and encoding categorical variables such as weather conditions.
+   - Merging data to one dataframe. 
 4. **Exploratory Data Analysis (EDA)**:
    - Analyzing distributions and relationships in the data.
    - Visualizing patterns and trends related to traffic flow.
